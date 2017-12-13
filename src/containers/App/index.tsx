@@ -42,7 +42,7 @@ class App extends React.Component<P> {
         return (
             <div>
                 <AppBar
-                    title="Introdução à Multimídia"
+                    title="FastPic"
                     showMenuIconButton={false}
                 />
 
