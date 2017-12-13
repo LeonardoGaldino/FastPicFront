@@ -130,8 +130,6 @@ typings/
 .DS_Store
 Thumbs.db
 
-**/build/
-
 # emacs temp files
 \#*\#
 *~
