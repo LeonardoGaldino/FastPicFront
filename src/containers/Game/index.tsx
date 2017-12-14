@@ -274,8 +274,8 @@ class Game extends React.Component<P, S> {
                                 }).then(value => {
                                     const content = 'content';
                                     const correct = 'correct';
-                                    const correctMessage = 'You got it! 1 point for you.';
-                                    const failMessage = 'Sorry, you failed! Try again.';
+                                    const correctMessage = `You got ${this.state.title} right! You deserve some points.`;
+                                    const failMessage = `Sorry, you failed ${this.state.title}! Try again.`;
                                     if (!value[content][correct]) {
                                         const audio = new Audio(
                                             failSounds[Math.floor(Math.random() * failSounds.length)]
